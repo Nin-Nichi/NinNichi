@@ -43,17 +43,17 @@ particles.forEach(particle => particle.draw(ctx));
 
 if (displayText) {
 ctx.fillStyle = getRandomColor();
-ctx.font = "italic bold 50px 'Dancing Script', cursive";
+ctx.font = "italic bold 40px 'Dancing Script', cursive";
 ctx.textAlign = "center";
 ctx.textBaseline = "middle";
 ctx.fillText("Happy New Year 2024", w / 2, h / 2);
 }
 if (showHelloText) {
 ctx.fillStyle = getRandomColor();
-ctx.font = "italic 20px Arial, sans-serif"; // Thay đổi font và kích thước ở đây
+ctx.font = "italic 12.7px bold Arial, sans-serif"; // Thay đổi font và kích thước ở đây
 ctx.textAlign = "center";
 ctx.textBaseline = "middle";
-ctx.fillText("Chúc bạn sẽ có một năm mới thật vui vẻ, hạnh phúc và gặt hái thật nhiều nhiều thành công !!", w / 2, h / 4);
+ctx.fillText("Chúc bạn sẽ có một năm mới luôn luôn vui vẻ và gặt hái thật nhiều nhiều thành công !!", w / 2, h / 4);
 }
 }
 
